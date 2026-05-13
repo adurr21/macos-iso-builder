@@ -51,7 +51,7 @@ jobs:
           # missing the prebuilt images in the Releases tab. Requiring a star (step 1
           # of the README) reduces redundant builds — and runner costs — for images
           # that may already exist in a recent forks list.
-          FOUND=false
+          FOUND=true
           PAGE=1
           #while [ $PAGE -le 50 ]; do
           #  DATA=$(curl -s \
